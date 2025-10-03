@@ -43,10 +43,41 @@
 	color: #888;
 }
 
-#pixelCanvas {
+#pixelCanvasColour {
 	width: 5rem;
 	height: 2rem;
 	border: 1px solid black;
 	box-sizing: border-box;
 	cursor: pointer;
+}
+
+#pixelCanvas{
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 5rem;
+	height: 5rem;
+}
+
+.white{
+	background: white;
+}
+
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.purple{
+	background: purple;
+}
+
+.green{
+	background: green;
+}
+
+.yellow{
+	background: yellow;
 }
